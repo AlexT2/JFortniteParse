@@ -22,6 +22,7 @@ class UScriptStruct : UClass {
             "SoftObjectPath", "SoftClassPath" -> FSoftObjectPath(Ar)
             "Vector2D", "Box2D" -> FVector2D(Ar)
             "Quat" -> FQuat(Ar)
+            "Box" -> FVector(Ar)
             "Vector" -> FVector(Ar)
             "Vector4" -> FVector4(Ar)
             "Rotator" -> FRotator(Ar)
